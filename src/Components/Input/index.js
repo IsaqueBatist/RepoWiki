@@ -1,8 +1,13 @@
 import React from 'react'
 import './style.js'
+import { InputCotnainer } from './style.js'
+
 function Input() {
   return (
-    <div>Input</div>
+    <InputCotnainer>
+      <input />
+    </InputCotnainer>
+    
   )
 }
 
