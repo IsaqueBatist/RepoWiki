@@ -1,7 +1,6 @@
 import styled from "styled-components"
 
 export const InputCotnainer = styled.div`
-
   border: 1px solid #FAFAFA;
   border-radius: 20px;
   

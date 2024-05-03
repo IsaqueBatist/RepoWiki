@@ -1,15 +1,12 @@
 import React from 'react'
 import { ItemRepoContainer } from './style'
-import { useState } from 'react'
 
-function ItemRepo() {
-  const [repos, setRepos] = useState([])
+function ItemRepo({ repo }) {
   return (
     <ItemRepoContainer>
-      <h3>Pablo</h3>
-      <p>Dio/pablo</p>
-      <a href="#">Visitar repositório</a><br/>
-      <a href="#" className='remove'>remover</a>
+      <h3>{repo.name}</h3>
+      <p>{repo.full_name}</p>
+      <a href={repo.html_url} target='_blank' rel='noreferrer'>Visitar repositório</a><br />
       <hr />
     </ItemRepoContainer>
   )

@@ -10,5 +10,17 @@ export const Container = styled.div`
   flex-direction: column;
   align-Items: center;
   justify-content: center;
+  h1{
+    margin:20px 0px;
+  }
+  .repositorios{
+    display: flex;
+    flex-direction: column;
+    max-height:300px;
+    width:80%;
+    div{
+      width: 100%;
 
+    }
+  }
 `

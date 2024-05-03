@@ -2,10 +2,10 @@ import React from 'react'
 import './style.js'
 import { InputCotnainer } from './style.js'
 
-function Input() {
+function Input({value, onChange}) {
   return (
     <InputCotnainer>
-      <input />
+      <input value={value} onChange={onChange}/>
     </InputCotnainer>
     
   )

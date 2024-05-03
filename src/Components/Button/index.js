@@ -2,9 +2,9 @@ import React from 'react'
 import './style.js'
 import { ButtontCotnainer } from './style.js'
 
-function Button() {
+function Button({onClick}) {
   return (
-    <ButtontCotnainer>
+    <ButtontCotnainer onClick={onClick}>
       Buscar
     </ButtontCotnainer>
     
